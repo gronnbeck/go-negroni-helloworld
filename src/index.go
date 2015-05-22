@@ -4,6 +4,7 @@ import (
   "github.com/codegangsta/negroni"
   "net/http"
   "fmt"
+  "os"
 )
 
 func main() {
@@ -12,7 +13,13 @@ func main() {
     fmt.Fprintf(w, "Welcome to the home page!")
   })
 
+  port := os.Getenv("PORT")
+
+  if port == "" {
+    port = "3000"
+  }
+
   n := negroni.Classic()
   n.UseHandler(mux)
-  n.Run(":3000")
+  n.Run(":"+port)
 }
