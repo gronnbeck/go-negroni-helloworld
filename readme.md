@@ -3,12 +3,7 @@
 An Hello World application in Go with *negroni*.
 
 ## Local setup
-Install and run locally on port 3000
-```sh
-sh install.sh && go run src/index.go
-```
-
-Remember to define your ``$GOPATH``.
+To install and run locally the project locally, you need to install [godep](https://github.com/tools/godep) first. Then run ``godep restore`` to restore the go dependencies. 
 
 ## Heroku setup
 First create your application using the Heroku Dashboard, and follow the guide for setting up the project using the Heroku Toolkit. E.g:
