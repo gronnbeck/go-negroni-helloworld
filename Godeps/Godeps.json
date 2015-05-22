@@ -4,7 +4,8 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/codegangsta/negroni",
-			"Rev":"c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+			"Comment": "v0.1-27-g46bd821",
+			"Rev": "46bd821940d86fb9777f7f86e9ae428132e110da"
 		}
 	]
 }
