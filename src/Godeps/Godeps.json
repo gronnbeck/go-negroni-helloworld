@@ -1,8 +1,0 @@
-{
-	"ImportPath": "_/Users/gronnbeck/dev/06-private/go-negroni-helloworld/src",
-	"GoVersion": "go1.4.2",
-	"Packages": [
-		"github.com/codegangsta/negroni"
-	],
-	"Deps": []
-}
