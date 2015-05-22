@@ -1,6 +1,9 @@
 # HelloWorld
 
+DISCLAIMER: I could not get godep to work correctly. I just gave up. 
+
 An Hello World application in Go with *negroni*.
+
 
 ## Local setup
 To install and run locally the project locally, you need to install [godep](https://github.com/tools/godep) first. Then run ``godep restore`` to restore the go dependencies.
