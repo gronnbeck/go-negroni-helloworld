@@ -1,1 +1,1 @@
-web: src/index.go
+web: web.go
