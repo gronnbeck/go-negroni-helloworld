@@ -1,5 +1,5 @@
 {
-	"ImportPath": "go-negroni-helloworld",
+	"ImportPath": "gronnbeck-negroni-helloworld",
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
