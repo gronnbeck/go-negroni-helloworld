@@ -2,7 +2,11 @@
 	"ImportPath": "github.com/gronnbeck/go-negroni-helloworld",
 	"GoVersion": "go1.4.2",
 	"Packages": [
-		"github.com/codegangsta/negroni"
 	],
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Rev":"c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+		}
+	]
 }
